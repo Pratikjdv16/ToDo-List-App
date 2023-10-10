@@ -57,10 +57,11 @@ const ToDoList = () => {
             <input
               type="text"
               className="text-input"
-              placeholder="What to do Today ?"
+              name="input_item"
               value={newItem}
               onChange={inputChange}
-              name="input_item"
+              autoComplete="off"
+              placeholder="What to do Today ?"
             />
             <button className="add-btn" onClick={onClickAddItems}>
               +
