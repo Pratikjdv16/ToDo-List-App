@@ -34,6 +34,7 @@ const ToDoList = () => {
         if (id !== index) {
           return true;
         }
+        return true;
       })
     );
   };
@@ -41,7 +42,6 @@ const ToDoList = () => {
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(addItem));
   }, [addItem]);
-
 
   return (
     <>

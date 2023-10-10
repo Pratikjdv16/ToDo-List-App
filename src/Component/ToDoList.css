@@ -47,7 +47,7 @@ body {
   color: #5d6268;
   font-weight: 500;
   font-size: 2.6rem;
-  font-family: cursive;
+  font-family: monospace;
 }
 
 .add-input-div {
@@ -69,12 +69,12 @@ body {
   font-size: 1rem;
   font-weight: 700;
   border-radius: 1rem;
-  font-family: cursive;
+  font-family: monospace;
 }
 
 .text-input::placeholder {
   font-weight: 500;
-  font-family: cursive;
+  font-family: monospace;
 }
 
 .add-btn {
@@ -124,7 +124,7 @@ body {
   width: 29rem;
   height: 3rem;
   text-transform: capitalize;
-  font-family: cursive;
+  font-family: monospace;
   border-bottom: 0.02rem dashed #31373d;
 }
 
@@ -144,6 +144,14 @@ body {
 }
 
 @media (max-width: 600px) {
+  body {
+    align-items: flex-start;
+  }
+
+  #todo-list {
+    margin: 1rem 0rem;
+  }
+
   #todo-list-box {
     width: 23rem;
   }
