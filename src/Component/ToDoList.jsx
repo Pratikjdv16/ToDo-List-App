@@ -34,7 +34,7 @@ const ToDoList = () => {
         if (id !== index) {
           return true;
         }
-        return true;
+        return false;
       })
     );
   };
